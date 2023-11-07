@@ -1,0 +1,77 @@
+body{
+    background-color: white;
+    padding: 30px;
+}
+header{ /* Del 0. navigasjon */
+    background-color: blanchedalmond;
+    text-align: center;
+    font-size: x-large;
+    height: fit-content;
+    border-radius: 30px;
+}
+table{/* innhold i Del0 */
+    width: 60%;
+}
+.list{ /* alle elementene som ligger inn i tabelen */
+    border-right: rgb(163, 159, 159) solid; 
+}
+
+.list:hover{
+    color:orange;
+    background-color: blanchedalmond;
+}
+
+
+.heleFirst{  
+    box-shadow: 10px 10px 20px 2px  rgb(246, 226, 171);
+   }
+
+.first{  /*  Del 1. øvert tekst i hoved side. litt om oslomet*/ 
+    width: 100%;
+    height: auto;
+    margin-top: 6% ;
+    color: black;
+    
+}
+h1{ /* Del 1. først head i hoved side. ligger inn i class=first*/
+    font-size: 60px;
+    font-family:monospace;
+    font-weight:bolder;
+}
+.oslomet{ /* Del 1. først paragraf i hoved side. ligger inn i class=first*/
+    font-size: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    line-height: 1.8;
+}
+.first2{ /* Del 2. et bildet av oslomet i background */
+    border: solid rgb(233, 165, 165);
+    width: 100%;
+    height: 350px;
+    margin-top: 20PX;
+    border-radius: 20px;
+    color: white;
+    
+
+    background-image: url(../imp/1100.jpg);
+    background-size: cover;
+    background-position: left;
+}
+.caption{ /* Del 2. figcaption */
+  margin-top: 3px;
+  margin-left: 6px;
+  font-size: 14px;
+}
+a:link{ /* ligger i både Del 1 og Del 2 */
+    color: rgb(229, 140, 92);
+    font-style:italic;
+}
+a:visited{
+    color: rgb(229, 140, 92);
+    font-style:italic;
+}
+a:hover{
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+
