@@ -1,0 +1,102 @@
+body{ 
+    background-color: white;
+            padding: 30px;
+            overflow: scroll; 
+}
+header{ 
+    background-color: blanchedalmond;
+    text-align: center;
+    font-size: x-large;
+    height: fit-content;
+    border-radius: 30px;
+}
+
+table{/* innhold i Del0 */
+    width: 60%;
+}
+
+.list{ /* alle elementene som ligger inn i tabelen */
+    border-right: rgb(163, 159, 159) solid; 
+}
+
+.list:hover{
+    color:orange;
+    background-color: blanchedalmond;
+}
+
+
+.pos_0{
+    margin: 100px;
+    width: 75%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+p{
+
+font-size: 20px;
+font-family:monospace;
+font-weight: bolder;
+line-height: 1.8;
+}
+
+
+img{
+   position: center;
+    width: 100%;
+    height: 550px;
+    margin-top: 20PX;
+    border-radius: 20px;
+    color: white;
+    background-size: cover;
+    background-position: center;  
+}
+.img_atmosfære{
+    float: right;
+    width: 350px;
+    height: fit-content;
+    border-radius: 10px;
+    margin-right: 20px;
+    text-align: right;
+    display: block;
+    margin: 0 auto;
+}
+.pos_1{
+   margin: 100px auto;
+   width: 75%;
+
+}
+.img_matvalg{
+    float: left;
+    width: 350px;
+    height: 7cm;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+.pos_2{
+    margin: 100px auto;
+    width: 75%;
+}  
+.img_drikkevalg{
+    float: right;
+    width: 350px;
+    height: fit-content;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+.pos_3{
+   margin: 100px auto;
+   width: 75%;
+} 
+footer{
+    background-color: blanchedalmond;
+    border-radius: 30px;
+    border:  rgb(240, 149, 149);
+    border-style: none solid;
+    border-width: medium;
+    width: 100%;
+    height: 50px;
+    float: inline-end;
+    margin-top: 120px;
+    margin-bottom: 100px;
+    text-align: center;
+}
